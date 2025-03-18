@@ -18,8 +18,8 @@ steps:
 
   -name: Cria os arquivos para Deploy
   uses: actions/upload-pages-artifact@v3
-  with:
-    path: .
+    with:
+      path: .
 
-  -name: Publica no Gitpages
-  uses: actions/deploy-pages@v1
+    -name: Publica no Gitpages
+    uses: actions/deploy-pages@v1
